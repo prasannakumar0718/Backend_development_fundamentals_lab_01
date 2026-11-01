@@ -28,7 +28,8 @@ app.get('/', (req, res) => {
 app.get('/about', (req, res) => {
   res.status(200).json({
     name: 'Myadaboina Prasanna Kumar',
-    section: '[YOUR_SECTION]'
+    registrationNumber: '252U1R9103',
+    section: 'GENAI-2B'
   });
 });
 

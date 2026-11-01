@@ -2,8 +2,8 @@
 
 ## Student Information
 - **Name:** Myadaboina Prasanna Kumar
-- **Registration Number:** [YOUR_REGISTRATION_NUMBER]
-- **Section:** [YOUR_SECTION]
+- **Registration Number:** 252U1R9103
+- **Section:** GENAI-2B
 - **GitHub Repository:** [Backend_development_fundamentals_lab_01](https://github.com/prasannakumar0718/Backend_development_fundamentals_lab_01)
 
 ---
@@ -88,7 +88,7 @@ npm run start:http
 | HTTP Method | Endpoint | Description | Expected Status Code | Response Format | Sample Output |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | `GET` | `/` | Home route displaying welcome greeting | `200 OK` | `text/html` / Plain Text | `Welcome to my Node.js server!` |
-| `GET` | `/about` | Returns student details | `200 OK` | `application/json` | `{"name": "Myadaboina Prasanna Kumar", "section": "[YOUR_SECTION]"}` |
+| `GET` | `/about` | Returns student details | `200 OK` | `application/json` | `{"name": "Myadaboina Prasanna Kumar", "registrationNumber": "252U1R9103", "section": "GENAI-2B"}` |
 | `GET` | `/time` | Returns the current server date and time | `200 OK` | Plain Text | `Sun Nov 01 2026 20:36:15 GMT+0530 ...` |
 | `GET` | `/*` (Any unknown route) | Catch-all handler for undefined paths | `404 Not Found` | Plain Text | `404 - Page not found` |
 
